@@ -9,7 +9,7 @@
                  [ring-middleware-format "0.7.0"]
                  [metosin/ring-http-response "0.8.0"]
                  [bouncer "1.0.0"]
-                 [org.webjars/bootstrap "4.0.0-alpha.3"]
+                 [org.webjars/bootstrap "3.3.7"]
                  [org.webjars/font-awesome "4.6.3"]
                  [org.webjars.bower/tether "1.3.3"]
                  [org.webjars/jquery "3.0.0"]
@@ -50,7 +50,7 @@
                                  [ring/ring-devel "1.5.0"]
                                  [pjstadig/humane-test-output "0.8.1"]]
                   :plugins      [[com.jakemccrary/lein-test-refresh "0.14.0"]]
-                  
+
                   :source-paths ["env/dev/clj" "test/clj"]
                   :resource-paths ["env/dev/resources"]
                   :repl-options {:init-ns user}
